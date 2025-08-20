@@ -21,7 +21,7 @@ Gold Layer: Designed business-ready views using star schemas, flat tables, and a
 
 ✅ Data Modeling: Implemented Star Schema and Aggregated Tables for optimized reporting and analytics.
 
-✅ Documentation: Built a data catalogue, flow diagrams, and architecture diagrams for easy maintenance and onboarding.
+✅ Documentation: Built a data catalog, flow diagrams, and architecture diagrams for easy maintenance and onboarding.
 
 ✅ Quality Assurance: Wrote test and validation scripts to ensure data integrity and capture lineage.
 
