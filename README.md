@@ -7,15 +7,22 @@ This project demonstrates the design and implementation of a Medallion Data Arch
 
 # 📌 Project Overview
 Data Sources: Ingested raw datasets in CSV format from CRM and ERP systems.
+
 Bronze Layer: Stored raw data as-is for traceability and lineage.
+
 Silver Layer: Performed data cleansing, standardization, normalization, and enrichment to create high-quality, standardized tables.
+
 Gold Layer: Designed business-ready views using star schemas, flat tables, and aggregated tables to support analytics and reporting.
 
 # ⚙️ Key Features
 ✅ ETL Automation: Wrote T-SQL stored procedures for batch ETL (full load + truncate & insert strategies).
+
 ✅ Data Transformations: Developed reusable SQL scripts for cleansing, enrichment, and aggregations.
+
 ✅ Data Modeling: Implemented Star Schema and Aggregated Tables for optimized reporting and analytics.
+
 ✅ Documentation: Built a data catalog, flow diagrams, and architecture diagrams for easy maintenance and onboarding.
+
 ✅ Quality Assurance: Wrote test and validation scripts to ensure data integrity and capture lineage.
 
 # 📊 Tech Stack
