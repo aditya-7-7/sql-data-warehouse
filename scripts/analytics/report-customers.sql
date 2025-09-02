@@ -4,7 +4,7 @@ Customer Report
 Purpose:
     - This report consolidates key customer metrics and behaviors
 
-Highlights:
+Features:
     1. Gathers essential fields such as names, ages, and transaction details.
 	2. Segments customers into categories (VIP, Regular, New) and age groups.
     3. Aggregates customer-level metrics:
@@ -102,4 +102,5 @@ END AS avg_order_value,
 CASE WHEN lifespan = 0 THEN total_sales
      ELSE total_sales / lifespan
 END AS avg_monthly_spend
+
 FROM customer_aggregation
