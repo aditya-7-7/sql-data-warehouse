@@ -4,10 +4,6 @@ Magnitude Analysis
 Purpose:
     - To quantify data and group results by specific dimensions.
     - For understanding data distribution across categories.
-
-SQL Functions Used:
-    - Aggregate Functions: SUM(), COUNT(), AVG()
-    - GROUP BY, ORDER BY
 ===============================================================================
 */
 
@@ -77,4 +73,5 @@ FROM gold.fact_sales f
 LEFT JOIN gold.dim_customers c
     ON c.customer_key = f.customer_key
 GROUP BY c.country
+
 ORDER BY total_sold_items DESC;
