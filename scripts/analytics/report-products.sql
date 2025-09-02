@@ -4,7 +4,7 @@ Product Report
 Purpose:
     - This report consolidates key product metrics and behaviors.
 
-Highlights:
+Features:
     1. Gathers essential fields such as product name, category, subcategory, and cost.
     2. Segments products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
     3. Aggregates product-level metrics:
@@ -109,5 +109,6 @@ SELECT
 		WHEN lifespan = 0 THEN total_sales
 		ELSE total_sales / lifespan
 	END AS avg_monthly_revenue
+
 
 FROM product_aggregations 
